@@ -35,6 +35,7 @@
 
       xorg = [
         compton
+        libnotify
         discord
         dunst
         feh
