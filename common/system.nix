@@ -3,9 +3,9 @@
 
 {
 
+  console.font = "Lat2-Terminus16";
+  console.keyMap = "es";
   i18n = {
-    consoleFont = "Lat2-Terminus16";
-    consoleKeyMap = "es";
     defaultLocale = "en_US.UTF-8";
   };
 

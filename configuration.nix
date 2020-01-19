@@ -11,7 +11,7 @@
     ./common/pkgs.nix
   ];
 
-  system.autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
+  system.autoUpgrade.channel = "https://nixos.org/channels/nixos-unstable";
   system.stateVersion = "19.03";
 
 }
