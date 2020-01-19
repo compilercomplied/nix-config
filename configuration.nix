@@ -3,15 +3,15 @@
 
 {
 
-  imports =
-    [
-      ./host/hardware.nix
-      ./host/configuration.nix
-      ./common/system.nix
-      ./common/configuration.nix
-      ./common/pkgs.nix
-    ];
+  imports = [
+    ./host/hardware.nix
+    ./host/configuration.nix
+    ./common/system.nix
+    ./common/configuration.nix
+    ./common/pkgs.nix
+  ];
 
+  system.autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
   system.stateVersion = "19.03";
 
 }
