@@ -1,3 +1,6 @@
+[submodule "nix-hosts"]
+	path = host
+	url = git@github.com:compilercomplied/nix-hosts.git
 [submodule ".pkgs/nixpkgs-mozilla"]
 	path = .pkgs/nixpkgs-mozilla
 	url = https://github.com/mozilla/nixpkgs-mozilla.git
