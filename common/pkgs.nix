@@ -10,11 +10,13 @@
     let 
       common = [
         cargo
+        pv
         ctags
         curl
         git
         htop
         jq
+        httpie
         neovim
         networkmanager
         nodejs
@@ -35,6 +37,7 @@
 
       xorg = [
         compton
+        postman
         libnotify
         discord
         dunst
