@@ -10,6 +10,7 @@
     let 
       common = [
         cargo
+        zsh
         pv
         ctags
         curl
