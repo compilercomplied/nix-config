@@ -1,14 +1,14 @@
 
-{ config, pkgs, options, ... }:
+{ config, pkgs, lib, options, ... }:
 
 {
 
   imports = [
-    ./host/hardware.nix
-    ./host/configuration.nix
-    ./common/system.nix
     ./common/configuration.nix
-    ./common/pkgs.nix
+    ./common/system.nix
+    ./hosts/box/configuration.nix
+    ./hosts/box/hardware.nix
+    ./hosts/box/packages.nix
   ];
 
   system.autoUpgrade.channel = "https://nixos.org/channels/nixos-unstable";

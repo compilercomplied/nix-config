@@ -3,11 +3,7 @@
 
 {
 
-  console.font = "Lat2-Terminus16";
-  console.keyMap = "es";
-  i18n = {
-    defaultLocale = "en_US.UTF-8";
-  };
+  nixpkgs.config.allowUnfree = true;
 
   environment.variables.EDITOR="vim";
 

@@ -23,8 +23,8 @@ Commit messages:
 | -------- |
 | config   |
 | docs     |
+| ops      |
 | pkgs     |
 | services |
 | system   |
 | userland |
-
